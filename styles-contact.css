@@ -1,0 +1,163 @@
+/*This is my 201 Contact Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 201 Contact Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url("images/coquette-bg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+	
+}
+
+.center {
+    width: 65%;
+	min-width: 300px
+	padding: 2%;
+    margin: 100px auto;
+ 	background: rgba(0, 0, 0, 0.75); /*this uses opacity of 75% for the background color*/
+	text-align: center;
+	/*--------Round div corner codes----*/
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	/*--------end of round corner ccodes*/
+
+	/*-----This is my fade in code------*/
+	animation: fadeIn duration 5s;
+	-webkit-animation: fadeIn 5s;
+	-moz-animation: fadeIn 5s;
+	-o-animation: fadeIn 5s;
+	-ms-animation; fadeIn 5s; 
+	/*border: 4px dashed white;*/
+}
+
+@keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity:1 ;}
+}
+@-moz-keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity:1 ;}
+}
+/*--------This is the end of my fade code-----------*/
+   
+#logo {
+	width: 50%;
+	margin-top: 25px;
+    margin-bottom: 10px;
+	/*border: 3px dashed red;*/
+	text-align: center;
+}
+
+h1 {
+	font-family: "bc-parlament", sans-serif;
+	font-size: 1.5em;
+    margin: 0px auto 10px auto;
+    color: #9CB680;
+}
+
+h2 {
+	font-family: "bc-parlament", sans-serif;
+	font-size: 1.5em;
+    line-height: 1.4;
+    color: #9CB680;
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+}
+
+p {
+	font-family: "bc-parlament", sans-serif;
+	font-size: 2em;
+    line-height: 1.6;
+    color: #C685AF;
+}
+nav{ 
+    font-family: "bc-parlament", sans-serif; 
+    font-size: 1.2em;
+	width: 80%; /*-----This is for responsiveness-----*/
+	margin: 0 auto;
+	/*border: ridge rgb(115, 187, 144);*/
+	border-width: 3px 0;
+	text-align: center;
+	margin-top: px;
+	margin-bottom: 7em;
+	
+}
+nav li{ 
+	display: inline; 
+}
+nav a{
+	display: inline-block; 
+	padding: 10px;
+
+}
+a{ 
+	color: #C685AF;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover{
+	color :rgb(117, 20, 44);
+	background: pink; 
+}
