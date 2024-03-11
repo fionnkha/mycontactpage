@@ -153,11 +153,11 @@ nav a{
 
 }
 a{ 
-	color: #C685AF;
+	color: #9CB680;
 	text-decoration: none;
 	font-weight: bold;
 }
 a:hover{
-	color :rgb(117, 20, 44);
-	background: pink; 
+	color :rgb(20, 117, 57);
+	background: rgb(255, 255, 255); 
 }
