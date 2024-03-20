@@ -119,18 +119,21 @@ h1 {
 
 h2 {
 	font-family: "bc-parlament", sans-serif;
-	font-size: 1.5em;
+	font-size: 1.8em;
     line-height: 1.4;
     color: #C685AF;
     padding: 0px 0px;
     margin: 0px auto 25px auto;
+	margin-top: 4.5%;
 }
 
 p {
 	font-family: "bc-parlament", sans-serif;
-	font-size: 2em;
+	font-size: 1.7em;
     line-height: 1.6;
     color: #C685AF;
+	margin-top: 1%;
+	
 }
 nav{ 
     font-family: "bc-parlament", sans-serif; 
